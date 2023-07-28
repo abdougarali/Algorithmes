@@ -1,0 +1,32 @@
+    ALGORITHM algorithm_name
+    ch: STRING;
+    i:integer;
+
+    voy=[a,e,i,o,u,y]
+   BEGIN
+
+   REPEAT
+      
+   
+    nbchar="";
+    for i from 1 to length(ch)step do 
+     nbchar += ch[i];  
+
+
+    espace="";
+    nbmot=0;
+    si ch[i]=espace  alors
+    nbmot+=1;
+      
+
+      nbvoy=0;
+     for j from 1 to length(voy) do 
+         for i from 1 to length(ch)step do 
+      REPEAT
+       si ch[i]=voy[j] alors 
+       nbvoy+=1;
+
+      UNTIL length(voy);
+   UNTIL ch[i]="."; 
+
+    END
