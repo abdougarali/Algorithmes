@@ -29,4 +29,11 @@
       UNTIL length(voy);
    UNTIL ch[i]="."; 
 
+
+   
+    write(nbchar);
+    write(nbmot);
+    write(nbvoy);
+
+
     END
